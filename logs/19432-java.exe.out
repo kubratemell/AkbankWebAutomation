@@ -1,0 +1,60 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 2712milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 2712"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 56524"}
+{"logLevel":"info","message":"Listening on port:56524"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'tests.CreditTest.setMaturity' and 'tests.CreditTest.setMaturity'"}
+{"logLevel":"debug","message":"Found Set 'VADE' as {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.CreditTest.clickCreditCalculation' and 'tests.CreditTest.clickCreditCalculation'"}
+{"logLevel":"debug","message":"Found Click on 'Kredi Hesaplama' in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.DetailTest.clickPayment' and 'tests.DetailTest.clickPayment'"}
+{"logLevel":"debug","message":"Found Click 'Ödeme Planı' in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.HomeTest.scrollDown' and 'tests.HomeTest.scrollDown'"}
+{"logLevel":"debug","message":"Found Scroll down to the bottom of the page in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.HomeTest.getUrl' and 'tests.HomeTest.getUrl'"}
+{"logLevel":"debug","message":"Found Enter Akbank Home Page; {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.DetailTest.scrollToElement' and 'tests.DetailTest.scrollToElement'"}
+{"logLevel":"debug","message":"Found Scroll down on the 'Ödeme Planı' page until 20th is seen in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.CreditTest.chooseInsurance' and 'tests.CreditTest.chooseInsurance'"}
+{"logLevel":"debug","message":"Found Choose {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.CreditTest.setCreditPrice' and 'tests.CreditTest.setCreditPrice'"}
+{"logLevel":"debug","message":"Found Enter {} TL in 'TUTAR' field in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.DetailTest.checkPlan' and 'tests.DetailTest.checkPlan'"}
+{"logLevel":"debug","message":"Found Check {} is opened in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.DetailTest.clickCalculationDetail' and 'tests.DetailTest.clickCalculationDetail'"}
+{"logLevel":"debug","message":"Found Click 'Hesaplama Detayları' in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tEnter Akbank Home Page; {} : public void getUrl(String key)"}
+{"logLevel":"debug","message":"\tScroll down to the bottom of the page : public void scrollDown()"}
+{"logLevel":"debug","message":"\tClick on 'Kredi Hesaplama' : public void clickCreditCalculation()"}
+{"logLevel":"debug","message":"\tClick 'Hesaplama Detayları' : public void clickCalculationDetail()"}
+{"logLevel":"debug","message":"\tChoose {} : public void chooseInsurance(String key)"}
+{"logLevel":"debug","message":"\tEnter {} TL in 'TUTAR' field : public void setCreditPrice(String price)"}
+{"logLevel":"debug","message":"\tScroll down on the 'Ödeme Planı' page until 20th is seen : public void scrollToElement()"}
+{"logLevel":"debug","message":"\tCheck {} is opened : public void checkPlan(String key)"}
+{"logLevel":"debug","message":"\tSet 'VADE' as {} : public void setMaturity(String key)"}
+{"logLevel":"debug","message":"\tClick 'Ödeme Planı' : public void clickPayment()"}
+Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 10155
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nis 21, 2021 3:59:15 ÖS org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Enter Akbank Home Page; {}' using 'class tests.HomeTest.getUrl"}
+{"logLevel":"debug","message":"Executing 'Scroll down to the bottom of the page' using 'class tests.HomeTest.scrollDown"}
+{"logLevel":"debug","message":"Executing 'Click on 'Kredi Hesaplama'' using 'class tests.CreditTest.clickCreditCalculation"}
+{"logLevel":"debug","message":"Executing 'Enter {} TL in 'TUTAR' field' using 'class tests.CreditTest.setCreditPrice"}
+{"logLevel":"debug","message":"Executing 'Choose {}' using 'class tests.CreditTest.chooseInsurance"}
+{"logLevel":"debug","message":"Executing 'Set 'VADE' as {}' using 'class tests.CreditTest.setMaturity"}
+{"logLevel":"debug","message":"Executing 'Click 'Hesaplama Detayları'' using 'class tests.DetailTest.clickCalculationDetail"}
+{"logLevel":"debug","message":"Executing 'Check {} is opened' using 'class tests.DetailTest.checkPlan"}
+{"logLevel":"debug","message":"Executing 'Click 'Ödeme Planı'' using 'class tests.DetailTest.clickPayment"}
+{"logLevel":"debug","message":"Executing 'Check {} is opened' using 'class tests.DetailTest.checkPlan"}
+{"logLevel":"debug","message":"Executing 'Scroll down on the 'Ödeme Planı' page until 20th is seen' using 'class tests.DetailTest.scrollToElement"}

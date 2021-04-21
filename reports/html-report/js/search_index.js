@@ -1,0 +1,1 @@
+var index = {"Tags":{},"Specs":{"Akbank Web Automation Test with Gauge":["specs/creditCalculation.html"]}};
